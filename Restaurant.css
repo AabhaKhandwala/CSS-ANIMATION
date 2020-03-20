@@ -1,0 +1,223 @@
+
+body{
+	font-size: 20px;
+	color:#35130C;
+	/*font-family: sans-serif;*/
+	font-family: 'Josefin Sans';
+}
+
+h3{
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+nav li {
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans';
+	margin-right: 30px;
+
+}
+nav,footer{
+	background: #E3D5D2;
+  width: 100%;
+  padding: 7px 10px;
+}
+
+footer {
+
+  position:absolute;
+  bottom: 0;
+    }
+footer a{
+  text-indent: 30px;
+  margin-right: 50px;
+}
+
+.ftKitchen{
+	position: sticky;	
+
+}
+
+nav a {
+	text-decoration: none;
+	color:#35130C;
+
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: darkgrey;
+}
+
+li {
+	font-weight: bold;
+}
+
+h1 {
+	color: #581845 ;
+}
+.form ,.form li a{
+	color: black;
+	font-family: 'Indie Flower';
+	text-shadow: 2px 1px 5px  #69534E;
+
+}
+input {
+	border: 2px solid black;
+	padding: 10px 25px;
+	display: block;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+
+.dropdown{
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+a:hover{
+	opacity: 0.50;
+}
+
+a{
+	text-decoration: none;
+}
+.recipe{
+	color: black;
+}
+button {
+	border: 2px solid black;
+	padding: 10px 25px;
+	display: block;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	border-radius: 15px;
+
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
+.rvq{
+	text-shadow: 2px 1px 5px  #69534E;
+}
+form{
+	font-family: 'Indie Flower', cursive;
+
+}
+.shadow{
+ box-shadow:10px 10px 10px slategray;
+ 
+}
+
+.text-pop-up-top {
+	-webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate-reverse ;
+	        animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate-reverse ;
+ height: 300px;
+ width:  300px;
+ margin-left: 20px;
+}
+
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1.0s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1.0s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.kenburns-top {
+	-webkit-animation: kenburns-top 5s ease-in-out both;
+	        animation: kenburns-top 5s ease-in-out both;
+}
+
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+
